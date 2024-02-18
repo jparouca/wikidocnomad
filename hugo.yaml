@@ -53,4 +53,4 @@ params:
 
   editURL:
     enable: true
-    base: "https://github.com/jparouca/wikidocnomad/tree/main/content"
+    base: "https://github.com/jparouca/wikidocnomad/tree/main/content/"

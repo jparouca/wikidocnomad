@@ -1,17 +1,15 @@
 ---
-title: My Site
+title: Moonad Documentation
 toc: false
 ---
 
-This is the landing page.
+F# offers in it's core library four monads to help you to have more flexibility when working with primitives and also potential null occurrences. So this library do the same.
 
-## Explore
+## Monads
 
 {{< cards >}}
-  {{< card link="docs" title="Docs" icon="book-open" >}}
-  {{< card link="about" title="About" icon="user" >}}
+{{< card link="docs/choice" title="Choice" icon="choice-icon" >}}
+{{< card link="docs/result" title="Result" icon="result-icon" >}}
+{{< card link="docs/option" title="Option" icon="option-icon" >}}
+{{< card link="docs/valueoption" title="ValueOption" icon="value-option-icon" >}}
 {{< /cards >}}
-
-## Documentation
-
-For more information, visit [Hextra](https://imfing.github.io/hextra).

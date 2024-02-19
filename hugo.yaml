@@ -18,10 +18,6 @@ menu:
     - name: Docs
       pageRef: /docs
       weight: 1
-    - name: Search
-      weight: 4
-      params:
-        type: search
     - name: GitHub
       weight: 5
       url: "https://github.com/2hit-io/moonad"
@@ -31,7 +27,13 @@ menu:
 params:
   navbar:
     displayTitle: true
-    displayLogo: false
+    displayLogo: true
+    logo:
+      path: images/logo.svg
+      dark: images/logo-dark.svg
+      link: /
+      width: 40
+      height: 20
 
   footer:
     displayCopyright: false
